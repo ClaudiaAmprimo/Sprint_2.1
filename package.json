@@ -1,0 +1,20 @@
+{
+  "name": "sprint_2.1",
+  "version": "1.0.0",
+  "description": "Ejercicios básicos con Javascript:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaudiaAmprimo/Sprint_2.1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClaudiaAmprimo/Sprint_2.1/issues"
+  },
+  "homepage": "https://github.com/ClaudiaAmprimo/Sprint_2.1#readme"
+}
