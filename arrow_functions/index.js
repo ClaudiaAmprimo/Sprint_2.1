@@ -15,3 +15,12 @@ console.log(randomNumber())
 // tenga una propiedad name y una función greet que utilice una función de flecha.
 // La función debe imprimir un saludo que incluya el nombre de la persona.
 // Por ejemplo: console.log(Hola, ${this.name});.
+
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+  greet = (name) => `Hola, ${this.name}`
+}
+const person = new Person("Claudia")
+console.log(person.greet())
