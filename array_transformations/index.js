@@ -12,7 +12,7 @@ console.log(cuadrado)
 array que sólo contenga los números pares.*/
 
 let numeros = [1, 2, 3, 4]
-let pares = numeros.filter((num) => num % 2 == 0)
+let pares = numeros.filter((num) => num % 2 === 0)
 console.log(pares)
 
 /* Ejercicio 3: Find: Tiene un array de números [1, 10 , 8, 11]. Use la función
