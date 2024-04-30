@@ -24,5 +24,5 @@ function calculadora(num1, num2, sumar) {
 function sumar(a,b) {
   return a + b
 }
-let resultado = calculadora(3,3,sumar)
-console.log(resultado)
+let result2 = calcul2ra(3,3,sumar)
+console.log(result2)
