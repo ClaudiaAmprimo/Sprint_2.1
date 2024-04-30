@@ -20,7 +20,21 @@ mostrar().then((mensaje) => console.log(mensaje))
 2 segundos si el input es igual a 'Hola', y que la rechace si el input es
 cualquier otra cosa.*/
 
-
+let validacion = (message) => {
+  return new Promise((resolve, reject) => {
+    if (!message.includes("Hola")) {
+      reject(new Error ("No existe incluye Hola"));
+    } else {
+      setTimeout(() => {
+        resolve(message)
+      }, 2000);
+    }
+  })
+}
+validacion("Hola mundo")
+  .then((message) => console.log("Promesa cumplida:", message));
+validacion("Hello World")
+  .catch((error) => console.error(error.message))
 
 /* Ejercicio 4: Uso de async/await: Escribe una función asíncrona que utilice la
 función await para esperar el resultado de la promesa creada en el ejercicio 1,
