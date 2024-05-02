@@ -21,7 +21,7 @@ class Person {
   constructor(name) {
     this.name = name;
   }
-  greet = (name) => `Hola, ${this.name}`
+  greet = () => `Hola, ${this.name}`
 }
 const person = new Person("Claudia")
 console.log(person.greet())
