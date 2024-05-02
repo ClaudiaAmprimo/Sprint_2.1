@@ -25,3 +25,20 @@ class Person {
 }
 const person = new Person("Claudia")
 console.log(person.greet())
+
+// _________________ Nivel 2 ___________________
+/* Ejercicio 4: Función de flecha dentro de un loop: Crea una función llamada
+printNumbers que acepte un array de números y utilice un loop for para imprimir
+cada número en la consola utilizando una función de flecha.*/
+
+let numeros = [10, 20, 30, 40, 50]
+function printNumbers(num) {
+  num.forEach(num => console.log(num));
+  }
+printNumbers(numeros)
+
+// _________________ Nivel 3 ___________________
+/* Ejercicio 5: Función de flecha con 'setTimeout': Crea una función de flecha
+que imprima un mensaje en la consola después de esperar 3 segundos.*/
+
+setTimeout(() => {console.log("Han pasado 3 segundos")}, 3000);
