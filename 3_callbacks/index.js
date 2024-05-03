@@ -65,4 +65,13 @@ una cadena de caracteres y una función de callback. La función procesarCadena
 debe convertir la cadena a mayúsculas y entonces invocar la función de callback
 con la cadena transformada.*/
 
+let cadena = "caracteres"
+function procesarCadena(cadena, callback) {
+  let cadenaMayusculas = cadena.toUpperCase(callback)
+  callback(cadenaMayusculas)
+}
 
+function mostrarCadena(cadena){
+  console.log(`la cadena en mayusculas es: ${cadena}`)
+}
+procesarCadena(cadena, mostrarCadena)
