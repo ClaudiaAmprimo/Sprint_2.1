@@ -30,3 +30,29 @@ totalSum = arrayNum.reduce(function(a,b){
   return a + b
 })
 console.log(totalSum)
+
+// _________________ Nivel 2 ___________________
+/* Ejercicio 5: Dado un array "[ 1, 3, 7, 10 ,15, 17, 11, 5, 8, 12, 9 ]",
+crea una función en una sola línea que haga lo siguiente:
+
+Filtra los números mayores o iguales a 10.
+Multiplica cada número filtrado por 2.
+Calcula la suma de los números filtrados y multiplicados por 2.
+La función debe devolver el resultado de la suma.*/
+
+let arrayNumeros = [ 1, 3, 7, 10 ,15, 17, 11, 5, 8, 12, 9 ]
+function calculadora(){
+  return arrayNumeros.filter((num) => num >= 10).map((num) => num * 2).reduce((a,b) => a + b)
+}
+console.log(calculadora())
+
+// _________________ Nivel 3 ___________________
+/* Ejercicio 6: Every / Some: Usa every y some para determinar si todos o algunos
+de los elementos del array [11, 12, 13, 14] son ​​mayores que 10, respectivamente*/
+
+let arrayNumeros2 = [11, 12, 13, 14]
+function mayorDeDiez(num){
+  return num > 10
+}
+console.log(arrayNumeros2.every(mayorDeDiez))
+console.log(arrayNumeros2.some(mayorDeDiez))
