@@ -7,7 +7,7 @@ si el usuario puede conducir. Si la edad es 18 o más, debe devolver
 function puedeConducir(age){
   return age >= 18 ? "Puede conducir" : "No puede conducir"
 }
-console.log(puedeConducir(21))
+console.log(puedeConducir(10))
 
 /* Ejercicio 2: Uso con operadores de comparación: Escribe una expresión que utilice
 el operador ternario para determinar cuál de los dos números dados (num1 y num2)
@@ -20,7 +20,7 @@ function esMayor(num1, num2) {
     return "son iguales"
   }
 }
-console.log(esMayor(2,3))
+console.log(esMayor(3,1))
 
 // _________________ Nivel 2 ___________________
 /* Ejercicio 3: Uso enlazado de operadores ternarios: Escribe una expresión que
@@ -31,7 +31,7 @@ function checkNumber(num){
   return num > 0 ? console.log("El numero es positivo") :
   num < 0 ? console.log("El numero es negativo") : console.log("El numero es cero")
 };
-checkNumber(1)
+checkNumber(0)
 
 /*Operador ternario con funciones: Crea una función encontrarMaximo que acepte
 tres parámetros (a, b, c) y utilice el operador ternario para determinar el valor máximo.*/

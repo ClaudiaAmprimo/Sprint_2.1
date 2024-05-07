@@ -14,3 +14,7 @@ Ejercicios básicos con Javascript:
 - Bloque 1.6: Array loops
 
 - Bloque 1.7: Promisas & Async/Await
+
+To clone the repository:
+
+git clone https://github.com/ClaudiaAmprimo/Sprint_2.1.git
